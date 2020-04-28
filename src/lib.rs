@@ -202,6 +202,7 @@ pub mod security;
 pub use endpoint::Endpoint;
 pub use request::Request;
 pub mod sse;
+pub mod ws;
 
 #[doc(inline)]
 pub use http_types::{Body, Error, Status, StatusCode};
